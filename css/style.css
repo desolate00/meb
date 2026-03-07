@@ -9,6 +9,7 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
+  
 }
 
 .logo {
@@ -18,7 +19,7 @@
   justify-content: center;
 }
 .logo img {
-  height: 40px; 
+  height: 45px; 
 }
 
 .menu {
@@ -112,15 +113,32 @@
   background-color: #3498db;
 }
 
-
 .company-info {
   padding: 20px; 
   max-width: 550px; 
   margin: 20px auto; 
   font-family: Arial, sans-serif; 
   font-size: 14px;
-  color: #333; 
+  color: #f3f3f3; 
   line-height: 1.5;
 }
 
-/* style */
+
+.inf {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.inf h1 {
+  font-size: 4.5 em;
+  margin-bottom: 20px;
+  color: #242424;
+}
+
+.inf p {
+  font-size: 1.2em;
+  max-width: 1500px;
+  margin: 0 auto;
+  color: #242424;
+}
