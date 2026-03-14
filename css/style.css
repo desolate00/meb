@@ -113,21 +113,11 @@
   background-color: #3498db;
 }
 
-.company-info {
-  padding: 20px; 
-  max-width: 550px; 
-  margin: 20px auto; 
-  font-family: Arial, sans-serif; 
-  font-size: 14px;
-  color: #757575; 
-  line-height: 1.5;
-}
-
 
 .inf {
   padding: 40px 20px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 
 .inf h1 {
@@ -141,4 +131,15 @@
   max-width: 1500px;
   margin: 0 auto;
   color: #242424;
+}
+
+
+.company-info {
+  padding: 20px; 
+  max-width: 550px; 
+  margin: 20px auto; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px;
+  color: #f3f3f3; 
+  line-height: 1.5;
 }
