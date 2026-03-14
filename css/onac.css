@@ -1,4 +1,3 @@
-/* Общие настройки страницы */
 body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -6,6 +5,7 @@ body {
   color: #333;
 }
 
+/* Шапка сайта */
 .header {
   display: flex;
   align-items: center;
@@ -16,6 +16,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Логотип */
 .logo {
   flex: 1;
   display: flex;
@@ -25,6 +26,7 @@ body {
   height: 45px;
 }
 
+/* Главное меню */
 .nav-menu {
   flex: 2;
   display: flex;
@@ -40,11 +42,13 @@ body {
   border-radius: 5px;
   transition: background 0.3s, color 0.3s;
 }
+
 .nav-menu a:hover {
   background-color: rgba(236, 240, 241, 0.2);
   color: #ffd700;
 }
 
+/* Регистрация/вход */
 .auth-btn {
   flex: 1;
   display: flex;
@@ -63,6 +67,7 @@ body {
   background-color: #d35400;
 }
 
+/* Основной блок информации */
 .section {
   max-width: 900px;
   margin: 40px auto;
@@ -84,6 +89,7 @@ body {
   margin-bottom: 20px;
 }
 
+/* Блок преимуществ */
 .advantages {
   display: flex;
   flex-wrap: wrap;
@@ -109,6 +115,7 @@ body {
   text-align: center;
 }
 
+/* Кнопки */
 .btn {
   display: inline-block;
   margin: 30px auto 0;
@@ -145,7 +152,9 @@ body {
   color: #34495e;
 }
 
-/* onac */
+
+
+
 .about-us {
   padding: 40px;
   background-color: #f9f9f9;
@@ -192,4 +201,5 @@ body {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
+
 
